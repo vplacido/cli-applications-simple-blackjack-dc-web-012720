@@ -39,6 +39,7 @@ def hit?(cardCount)
     end
   else 
     invalid_command
+    prompt_user
   end
   cardCount
 end
@@ -46,7 +47,6 @@ end
 def invalid_command
   # code invalid_command here
   puts "Please enter a valid command"
-  prompt_user
 end
 
 #####################################################
