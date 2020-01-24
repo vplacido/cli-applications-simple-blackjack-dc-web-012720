@@ -39,6 +39,7 @@ def hit?(cardCount)
     end
   else 
     invalid_command
+    puts prompt_user
   end
   cardCount
 end
