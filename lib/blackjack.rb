@@ -30,7 +30,6 @@ def initial_round
 end
 
 def hit?(cardCount)
-  # code hit? here
   prompt_user
   result = get_user_input
   if result =="s" || result == "h"
@@ -45,7 +44,6 @@ def hit?(cardCount)
 end
 
 def invalid_command
-  # code invalid_command here
   puts "Please enter a valid command"
 end
 
